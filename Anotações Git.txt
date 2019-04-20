@@ -1,0 +1,15 @@
+	
+
+git clone https://github.com/NomeUsúario/NomeRepositório.git	Clona o repossitório
+
+git add Arquivo.extenção	Adiciona o aruquivo a pasta do repositório
+
+git commit -m "Alteração: detelahes alteração"		Cria uma Atualização
+
+git push origin master		Dar push(enviar)
+
+git pull origin master 		Dar pull(receber)
+
+nano .gitignore 	abre arquivos ignorados
+
+
