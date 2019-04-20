@@ -1,0 +1,7 @@
+Windows:
+
+  C:\Windows\System32\OptionalFeatures.exe
+Ativa o telnet client
+  telnet towel.blinkenlights.nl
+
+Linux

@@ -1,0 +1,16 @@
+Formatar pen drive
+
+
+Cmd:
+
+  Diskpart - nova janela
+
+Nova janela:
+
+  list disk - lista de disco
+  select disk 1 - seleciona o disco
+  clean - limpa
+  create partition primary
+  format fs=FAT32
+Quando terminar 
+  assign

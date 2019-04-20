@@ -1,0 +1,8 @@
+Baixar
+Localizar na pasta downloads
+Dar unzip
+Dar ls -l(L) ngrok
+Dpa mover para bin(mv ngrok /bin/)
+
+Lembrar de iniciar o apache2
+/etc/init.d/apache2 start
