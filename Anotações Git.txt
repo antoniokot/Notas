@@ -1,10 +1,30 @@
 	
 
-git clone https://github.com/NomeUs˙ario/NomeRepositÛrio.git	Clona o repossitÛrio
 
-git add Arquivo.extenÁ„o	Adiciona o aruquivo a pasta do repositÛrio
+git config --global user.name "John Doe" 	Consigura o git
 
-git commit -m "AlteraÁ„o: detelahes alteraÁ„o"		Cria uma AtualizaÁ„o
+git config --global user.email johndoe@example.com		Consigura o git
+
+
+
+git init	inicia um reposit√≥rio
+
+git clone https://github.com/NomeUs√∫ario/NomeReposit√≥rio.git	Clona o repossit√≥rio publicos
+
+	git clone -b meu-branch http://usuario:senha@minha-url-repo.git clona o reposit√≥rio privado
+
+git add Arquivo.exten√ß√£o	Adiciona o aruquivo a pasta do reposit√≥rio
+
+git status	Vrifica como est√° o git
+
+git commit -m "Altera√ß√£o: detelahes altera√ß√£o"		Cria uma Atualiza√ß√£o
+
+git rm		removendo arquivos
+
+git rm --cached readme.txt	 removendo arquivos ja dicionados
+
+
+
 
 git push origin master		Dar push(enviar)
 
