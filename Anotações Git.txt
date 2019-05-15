@@ -1,4 +1,4 @@
-	
+﻿	
 
 
 git config --global user.name "John Doe" 	Consigura o git
@@ -8,6 +8,8 @@ git config --global user.email johndoe@example.com		Consigura o git
 
 
 git init	inicia um repositório
+
+git remote add origin ttps://github.com/NomeUsúario/NomeRepositório.git
 
 git clone https://github.com/NomeUsúario/NomeRepositório.git	Clona o repossitório publicos
 
