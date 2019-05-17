@@ -1,4 +1,4 @@
-﻿	
+﻿ 	
 
 
 git config --global user.name "John Doe" 	Consigura o git
@@ -17,7 +17,11 @@ git clone https://github.com/NomeUsúario/NomeRepositório.git	Clona o repossit�
 
 git add Arquivo.extenção	Adiciona o aruquivo a pasta do repositório
 
+git add *
+
 git status	Vrifica como está o git
+
+git commit -am "Alteração: detelahes alteração"		add e commita
 
 git commit -m "Alteração: detelahes alteração"		Cria uma Atualização
 
