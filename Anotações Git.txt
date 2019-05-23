@@ -1,9 +1,9 @@
 ﻿ 	
 
 
-git config --global user.name "John Doe" 	Consigura o git
+git config --global user.name "nome" 								Consigura o git
 
-git config --global user.email johndoe@example.com		Consigura o git
+git config --global user.email email								Consigura o git
 
 
 
@@ -11,31 +11,43 @@ git init	inicia um repositório
 
 git remote add origin ttps://github.com/NomeUsúario/NomeRepositório.git
 
-git clone https://github.com/NomeUsúario/NomeRepositório.git	Clona o repossitório publicos
+git clone https://github.com/NomeUsúario/NomeRepositório.git					Clona o repossitório publicos
 
-	git clone -b meu-branch http://usuario:senha@minha-url-repo.git clona o repositório privado
+	  -b meu-branch http://usuario:senha@minha-url-repo.git 				clona o repositório privado
 
-git add Arquivo.extenção	Adiciona o aruquivo a pasta do repositório
+git add Arquivo.extenção									Adiciona o aruquivo a pasta do repositório
 
 git add *
 
 git status	Vrifica como está o git
 
-git commit -am "Alteração: detelahes alteração"		add e commita
+git commit -am "Alteração: detelahes alteração"							add e commita
 
-git commit -m "Alteração: detelahes alteração"		Cria uma Atualização
+git commit -m "Alteração: detelahes alteração"							Cria uma Atualização
 
-git rm		removendo arquivos
+git log												verificar o historico de mudanças
 
-git rm --cached readme.txt	 removendo arquivos ja dicionados
+	-n (q)											q = quantidade de commits
+	--oneline 										mostrar em uma linha
+	--stat 											mostrar número de linhas adicionadas
+
+git diff											mostra mudanças não rastreadas
+	
+	--staged										mostra mudanças do arquivo já no stage
+	númeroversão..númerooutraversão								compara duas versões
+	númeroversão~q										compara versão com q versões 
+
+git rm												removendo arquivos
+
+git rm --cached readme.txt	 								removendo arquivos ja dicionados
 
 
 
 
-git push origin master		Dar push(enviar)
+git push origin master										Dar push(enviar)
 
-git pull origin master 		Dar pull(receber)
+git pull origin master 										Dar pull(receber)
 
-nano .gitignore 	abre arquivos ignorados
+nano .gitignore 										abre arquivos ignorados
 
 
