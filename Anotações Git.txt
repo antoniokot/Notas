@@ -9,7 +9,7 @@ git config --global user.email email								Consigura o git
 
 git init	inicia um repositório
 
-git remote add origin ttps://github.com/NomeUsúario/NomeRepositório.git
+git remote add origin https://github.com/NomeUsúario/NomeRepositório.git
 
 git clone https://github.com/NomeUsúario/NomeRepositório.git					Clona o repossitório publicos
 
