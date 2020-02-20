@@ -41,10 +41,10 @@ git rm												removendo arquivos
 
 git rm --cached readme.txt	 								removendo arquivos ja dicionados
 
-
-
+git reset --hard {codigo do log}								Voltando commits
 
 git push origin master										Dar push(enviar)
+git push --force origin master									Push com repositorio local desatualizado
 
 git pull origin master 										Dar pull(receber)
 
