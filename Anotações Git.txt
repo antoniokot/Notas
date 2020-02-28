@@ -1,9 +1,9 @@
 ﻿ 	
 
 
-git config --global user.name "nome" 								Consigura o git
+git config --global user.name "nome" 								Configura o git
 
-git config --global user.email email								Consigura o git
+git config --global user.email email								Configura o git
 
 
 
